@@ -20,7 +20,38 @@ The aim is to develop a method that ensures precise alignment of both obstacles 
 - **Open3D**: Used for 3D point cloud processing and registration.
 
 ## Setup and Installation
-(Instructions for setting up and installing the project, including environment setup and library dependencies.)
+
+Follow these steps to set up the project environment:
+
+1. **Clone the Repository**:
+
+```
+git clone https://github.com/yfe404/Obstacle-Focused-LiDAR-Registration.git
+cd Obstacle-Focused-LiDAR-Registration
+```
+
+
+2. **Set up a Python Virtual Environment**:
+- For Windows:
+  ```
+  python -m venv venv
+  .\venv\Scripts\activate
+  ```
+- For macOS and Linux:
+  ```
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+
+3. **Install Dependencies**:
+
+```
+pip install -r requirements.txt
+```
+
+
+This sets up a local environment with all the necessary dependencies to run and work on the project.
+
 
 ## Usage
 (Detailed guide on how to use the project, including script execution, data input formats, and command-line options.)
